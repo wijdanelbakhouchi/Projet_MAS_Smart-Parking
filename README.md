@@ -1,13 +1,24 @@
-# 🚗 Smart Parking Simulation
+# Smart Parking Multi-Agent System (MAS)
 
-Simulation de parking intelligent **Digital Twin (Jumeau Numérique)** basée sur une **architecture multi-agents**.
+<p align="left">
+  <img src="https://img.shields.io/badge/STATUS-EDUCATIONAL%20PROJECT-0078D4?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/ARCHITECTURE-MULTI--AGENT%20SYSTEM-E87B1E?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/FRAMEWORK-JADE%20(JAVA)-606060?style=for-the-badge&logoColor=white" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/SIMULATION-REAL--TIME%20PARKING-555555?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/ALGORITHM-OPTIMIZATION-0078D4?style=for-the-badge&logoColor=white" />
+</p>
+
+> **An intelligent decentralized system designed to optimize urban parking management through autonomous agent coordination and real-time decision making.**
 
 Ce projet compare les performances et revenus entre :
 
 - gestion classique **FCFS – First Come First Served**
 - gestion par **enchères dynamiques (Vickrey Auction)**
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 - **Simulation Multi-Agents (Mesa)**  
   Chaque voiture et chaque place de parking est un agent autonome.
@@ -28,7 +39,7 @@ Ce projet compare les performances et revenus entre :
   - Backend : Python + FastAPI  
   - Frontend : React + Vite
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend (simulation)
 - Python
@@ -43,7 +54,7 @@ Ce projet compare les performances et revenus entre :
 - Recharts
 - lucide-react
 
-## 📂 Structure du projet
+## Structure du projet
 
 ```bash
 smart-parking/
@@ -58,27 +69,27 @@ smart-parking/
     ├── package.json
     └── ...
 ```
-## 🚀 Installation et exécution
+## Installation et exécution
 
-### ✔ Prérequis
+### Prérequis
 
 - Python **3.8+**
 - Node.js **16+**
 
-### 1️⃣ Installation du Backend (Python)
+### 1- Installation du Backend (Python)
 ```bash
 cd parking-backend
 pip install fastapi uvicorn mesa
 uvicorn backend:app --reload
 ```
-### 2️⃣ Installation du Frontend (React)
+### 2- Installation du Frontend (React)
 ```bash
 cd parking-frontend
 npm install
 npm install lucide-react recharts
 npm run dev
 ```
-## 🎮 Utilisation
+## Utilisation
 
 - ouvrir l’interface frontend
 - vérifier l’état Backend Python Actif
@@ -87,11 +98,11 @@ npm run dev
 - démarrer / pause simulation
 
 Légende :
-- 🟨 VIP
-- 🟦 Handicap
-- 🟩 Standard
+- VIP ( Jaune )
+- Handicap ( Blue )
+- Standard ( Vert )
 
-## 🤝 Contribution
+## Contribution
 ```bash
 fork du projet
 git checkout -b feature/NouvelleFeature
@@ -100,7 +111,7 @@ git push origin feature/NouvelleFeature
 ```
 ouvrir une Pull Request
 
-## 📜 Licence
+## Licence
 
 Projet académique — utilisation non libre.
 contacter moi 
