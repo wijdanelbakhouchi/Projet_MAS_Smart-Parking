@@ -1,18 +1,17 @@
-# Smart Parking Multi-Agent System (MAS)
+# Système Multi-Agents (MAS) pour Parking Intelligent
 
 <p align="left">
-  <img src="https://img.shields.io/badge/STATUS-EDUCATIONAL%20PROJECT-0078D4?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/ARCHITECTURE-MULTI--AGENT%20SYSTEM-E87B1E?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/STATUT-PROJET%20ÉDUCATIF-0078D4?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/ARCHITECTURE-SYSTÈME%20MULTI--AGENTS-E87B1E?style=for-the-badge&logoColor=white" />
   <img src="https://img.shields.io/badge/FRAMEWORK-JADE%20(JAVA)-606060?style=for-the-badge&logoColor=white" />
 </p>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/SIMULATION-REAL--TIME%20PARKING-555555?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/ALGORITHM-OPTIMIZATION-0078D4?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/SIMULATION-PARKING%20TEMPS%20RÉEL-555555?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/ALGORITHME-OPTIMISATION-0078D4?style=for-the-badge&logoColor=white" />
 </p>
 
-> **An intelligent decentralized system designed to optimize urban parking management through autonomous agent coordination and real-time decision making.**
-
+> **Un système décentralisé intelligent conçu pour optimiser la gestion du stationnement urbain grâce à la coordination d'agents autonomes et à une prise de décision en temps réel.**
 Ce projet compare les performances et revenus entre :
 
 - gestion classique **FCFS – First Come First Served**
